@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+body {
+    font-family: 'proxima-nova', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 { 
+    font-size: 40px;
+    color: hsl(202, 100%, 38%);
+}
+
+header ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+li + li {
+    margin-left: 24px;
+}
+
+button {
+    background-color: hsl(202, 100%, 38%);
+    color:hsl(202, 16%, 86%);
+    border: none;
+    padding: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+}
