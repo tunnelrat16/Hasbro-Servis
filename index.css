@@ -97,12 +97,12 @@ h3 {
 
 
 .Sarah {
-    width: 50px;
-    border-radius: 50%;
+    width: 200px;
+    border-radius: 200%;
 }
 
 
-footer {
+footer div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,4 +110,16 @@ footer {
 
 .high {
     list-style: none;
+}
+
+.Icons {
+    width: 20px;
+    height: 20px;
+    justify-items: flex-end;
+}
+
+#Sarah {
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
 }
