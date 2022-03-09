@@ -34,8 +34,31 @@ button {
     border-radius: 3px;
 }
 
+.city {
+    width: 250px;
+    height: 150px;
+    margin: 0 10px;
+}
+
 a {
     text-decoration: none;
 }
 
+#row {
+    list-style: none;
+    display: inline-flex ;
+    flex-flow: row nowrap;
+    justify-content: left;
+    padding: 0;
+}
 
+
+#leftside {
+    float: left;
+    width: 50%;
+}
+
+#rightside {
+    float: right;
+    width: 50%;
+}
