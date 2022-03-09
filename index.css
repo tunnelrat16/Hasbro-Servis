@@ -23,7 +23,7 @@ header ul {
     list-style: none;
 }
 
-li + li {
+header li + li {
     margin-left: 24px;
 }
 
@@ -41,6 +41,12 @@ button {
     height: 150px;
     margin: 0 10px;
 }
+
+.logo {
+    width: 60px;
+    height: 50px;
+}
+
 
 a {
     text-decoration: none;
@@ -93,4 +99,15 @@ h3 {
 .Sarah {
     width: 50px;
     border-radius: 50%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.high {
+    list-style: none;
 }
